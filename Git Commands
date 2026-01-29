@@ -1,0 +1,22 @@
+1️⃣ Go to your project folder
+cd path/to/your/project
+
+2️⃣ Initialize Git (this creates .git)
+git init
+
+3️⃣ Check file status (MOST IMPORTANT habit)
+git status
+
+4️⃣ Add files to staging area
+git add .
+git add filename
+
+5️⃣ Commit (this is NOT optional)
+git commit -m "Initial commit"
+
+6️⃣ Rename branch to main (do this once)
+git branch -M main
+
+7️⃣ Add remote repository (critical step)
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+  Check it: git remote -v
